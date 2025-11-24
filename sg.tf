@@ -1,5 +1,6 @@
 module "mysql_sg" {
-  source = "../Terraform-aws-SecurityGroup-Module"
+  #source = "../Terraform-aws-SecurityGroup-Module"
+  source = "git::https://github.com/shahabsb94/Terraform-aws-SecurityGroup-Module.git?ref=main"
   project_name = var.project_name
   environment = var.environment
   sg_name = "mysql"
