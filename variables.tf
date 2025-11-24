@@ -12,6 +12,5 @@ variable "common_tags" {
     project_name = "expense"
     environment = "dev"
     terraform = true
-    module = "mysql"
   }
 }
